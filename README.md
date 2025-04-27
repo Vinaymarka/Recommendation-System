@@ -3,13 +3,13 @@ This project aims to develop a recommendation system using various machine learn
 
 
 Introduction
-In today's digital landscape, users are inundated with a vast array of movie content available on streaming platforms. Navigating these extensive libraries to find movies that align with individual preferences can be a daunting task. To address this challenge, we present the development of a recommendation system that leverages machine learning techniques to provide personalized movie recommendations tailored to individual user tastes. By analyzing user preferences and movie attributes, the recommendation system aims to enhance user satisfaction, foster engagement, and optimize the movie-watching experience.
+Today, with so many movies available on streaming platforms, it’s easy for users to feel lost trying to find something they’ll enjoy. To make this easier, we built a recommendation system that uses machine learning to suggest movies that match each person’s taste. By looking at what users like and what different movies offer, our system helps people find movies they’ll love, making their movie-watching experience more fun and enjoyable.
 
 Problem Definition
-The project seeks to create a recommendation system that employs content-based and collaborative filtering techniques to provide personalized movie suggestions to users, considering their preferences and movie attributes. Leveraging advanced machine learning algorithms, including neural networks and matrix factorization, the system endeavors to optimize user satisfaction and engagement by delivering relevant and tailored recommendations. Through the analysis of user interactions and movie characteristics, the system aims to bridge the gap between users and relevant movie content, ultimately enriching the digital entertainment landscape.
+This project focuses on building a movie recommendation system that uses content-based and collaborative filtering methods to suggest movies based on what users like and the features of the movies. By using advanced machine learning techniques like neural networks and matrix factorization, the system aims to make users happier and more engaged by giving them better, more personalized suggestions. By studying how users interact with movies and what each movie offers, the system hopes to connect people with movies they’ll enjoy, making the digital entertainment experience even better.
 
 Data & Data Preprocessing
-We utilized the MovieLens dataset as the foundation for our recommendation system. For content-based recommendation, relevant attributes such as the year of release, average rating, and genre information were extracted for each movie. User-specific information, including user ID, rating count, and average rating for each genre, was aggregated to create user feature vectors. Missing values in the dataset were handled by replacing NaN values with either "zero" or the mean of other user ratings.
+We based our recommendation system on the MovieLens dataset. For the content-based approach, we extracted key attributes like release year, average rating, and genre information for each movie. We also compiled user-specific data, including user ID, rating count, and average ratings across different genres, to form user feature vectors. To address missing values, we replaced NaN entries with either "zero" or the mean of other user ratings
 
 Techniques
 The recommendation system employs collaborative filtering techniques such as Singular Value Decomposition (SVD) and matrix factorization. Additionally, content-based filtering techniques are implemented using neural networks to recommend items based on movie features and user preferences.
@@ -23,7 +23,7 @@ The recommendation system project showcases the effectiveness of content-based r
 Usage
 To use the recommendation system:
 
-Clone the repository: git clone https://github.com/choudharyNetram/recommendation_system.git
+Clone the repository: git clone 
 Install dependencies: pip install -r requirements.txt
 Run the main script: python main.py
 Dependencies
