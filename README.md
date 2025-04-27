@@ -23,7 +23,7 @@ The recommendation system project showcases the effectiveness of content-based r
 Usage
 To use the recommendation system:
 
-Clone the repository: git clone 
+Clone the repository: git clone https://github.com/Vinaymarka/Recommendation-System.git </br>
 Install dependencies: pip install -r requirements.txt
 Run the main script: python main.py
 Dependencies
